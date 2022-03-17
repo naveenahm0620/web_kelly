@@ -1,0 +1,180 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+/* navbar starts */
+.navbar ul {
+    display: flex;
+    margin-left: 330px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#888888;
+    margin: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navbar{
+    background-color: rgb(240, 240, 245);
+    background-size: cover;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar h1{
+    color:rgb(78, 69, 69);
+    font-size: 36px;
+    font-weight:400;
+    margin-left: 10px;
+    font-family: Eras ITC;
+}
+.link1{
+    color: black;
+    border-bottom: 2px solid #34b7a7;
+    padding-bottom: 10px;
+}
+.link{
+    transition: all 0.3s;
+
+}
+.link:hover{
+    color: black;
+    border-bottom: 2px solid #34b7a7;
+    padding-bottom:10px ;
+}
+.medialinks{
+    display: flex;
+    text-align: right;
+    margin-left: 280px;
+   
+}
+.medialinks i{
+    transition: all 0.5s;
+
+}
+
+.medialinks i:hover{
+    color: #34b7a7;
+}
+.medialinks a{
+    font-size: 20px;
+    text-decoration: none;
+    color:gray;
+    margin: 5px;
+}
+/* navbar ends */
+
+/* SERVICES starts */
+.SERVICES{
+    margin: 40px 100px;
+
+}
+.SERVICES h1{
+    text-align: center;  
+
+}
+.SERVICES hr{
+    width: 60px;
+    background-color: #34b7a7;
+    height: 4px;
+     margin:20px auto; 
+    text-align: center;
+
+}
+.SERVICES p{
+    color: #888888;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.SERVICESchild{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SERVICESbox1{
+    margin: 15px;
+    width: 350px;
+    height: 340px;
+    text-align: center;
+    padding: 70px 30px 80px 30px;
+    /* transition: all ease-in-out 0.3s; */
+    background: #fff;
+    box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%);
+}
+
+.SERVICESbox1 a{
+    text-decoration: none;
+    color: #444040;
+    
+}
+.SERVICESbox1 h2{
+    margin: 15px;
+
+}
+.SERVICESbox1 p{
+    line-height: 24px;
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+
+}
+.SERVICESicon i{
+    position: relative;
+    top: -40px;
+    left: -65px;
+    font-size: 30px;
+}
+
+.blue .SERVICESbox1 .SERVICESicon i{
+    color: #34b7a7;
+}
+.blue:hover .SERVICESicon i{
+    color: white;
+}
+
+
+/* SERVICES ends */
+/* footer start */
+.footer{
+    align-items: center;
+    background-color: #e9e8e6;
+    background-size: cover;
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #535050;
+}
+.footer a{
+    text-decoration: none;
+    color:#34b7a7;
+}
+/* footer ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+/* navbar starts */
+.navbar ul {
+    display: flex;
+    margin-left: 330px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#888888;
+    margin: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navbar{
+    background-color: rgb(240, 240, 245);
+    background-size: cover;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar h1{
+    color:rgb(78, 69, 69);
+    font-size: 36px;
+    font-weight:400;
+    margin-left: 10px;
+    font-family: Eras ITC;
+}
+.link1{
+    color: black;
+    border-bottom: 2px solid #34b7a7;
+    padding-bottom: 17px;
+}
+.link{
+    transition: all 0.3s;
+
+}
+.link:hover{
+    color: black;
+    border-bottom: 2px solid #34b7a7;
+    padding-bottom:10px ;
+}
+.medialinks{
+    display: flex;
+    text-align: right;
+    margin-left: 280px;
+   
+}
+.medialinks i{
+    transition: all 0.5s;
+
+}
+
+.medialinks i:hover{
+    color: #34b7a7;
+}
+.medialinks a{
+    font-size: 20px;
+    text-decoration: none;
+    color:gray;
+    margin: 5px;
+}
+/* navbar ends */
+
+ /* PORTFOLIO starts  */
+ .PORTFOLIO{
+    margin: 40px 100px;
+
+ }
+ .PORTFOLIOh1{
+    text-align: center; 
+
+ }
+ .PORTFOLIOhr{
+    width: 60px;
+    background-color: #34b7a7;
+    height: 4px;
+     margin:20px auto; 
+    text-align: center;
+
+ }
+ .PORTFOLIOmain{
+    color: #888888;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+
+ }
+ .PORTFOLIOlink{
+    text-align: center;
+
+ }
+ .PORTFOLIOlink a{
+     text-decoration: none;
+     font-size: 13px;
+     font-weight: 500;
+   
+ }
+ .PORTFOLIOlink .one{
+     color: white;
+     border: 2px solid #34b7a7;
+     padding: 5px 15px;
+     background-color: #34b7a7;
+     border-radius: 50px;
+ }
+ .PORTFOLIOlink .two{
+    padding: 20px;
+
+ }
+ .PORTFOLIOlink .two:hover{
+    color: white;
+    border: 2px solid #34b7a7;
+    padding: 5px 15px;
+    background-color: #34b7a7;
+    border-radius: 50px;
+}
+.PORTFOLIOset1 img{
+    width: 350px;
+    height: 600px;
+}
+.PORTFOLIOset2 img{
+    width: 350px;
+    height: 240px;
+}
+.PORTFOLIOset3 img{
+    width: 350px;
+    height: 230px;
+}
+.PORTFOLIOset4 img{
+    width: 350px;
+    height: 200px;
+}
+.PORTFOLIOset5 img{
+    width: 350px;
+    height: 360px;
+}
+
+.PORTFOLIOchild{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+   
+
+
+ /* PORTFOLIO ends */

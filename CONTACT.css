@@ -1,0 +1,214 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+/* navbar starts */
+.navbar ul {
+    display: flex;
+    margin-left: 330px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#888888;
+    margin: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navbar{
+    background-color: rgb(240, 240, 245);
+    background-size: cover;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar h1{
+    color:rgb(78, 69, 69);
+    font-size: 36px;
+    font-weight:400;
+    margin-left: 10px;
+    font-family: Eras ITC;
+}
+.link1{
+    color: black;
+    border-bottom: 2px solid #34b7a7;
+    padding-bottom: 10px;
+}
+.link{
+    transition: all 0.3s;
+
+}
+.link:hover{
+    color: black;
+    border-bottom: 2px solid #34b7a7;
+    padding-bottom:10px ;
+}
+.medialinks{
+    display: flex;
+    text-align: right;
+    margin-left: 280px;
+   
+}
+.medialinks i{
+    transition: all 0.5s;
+
+}
+
+.medialinks i:hover{
+    color: #34b7a7;
+}
+.medialinks a{
+    font-size: 20px;
+    text-decoration: none;
+    color:gray;
+    margin: 5px;
+}
+/* navbar ends */
+
+/* CONTACT start  */
+.CONTACT{
+    margin: 40px 100px;
+
+}
+.CONTACTh1{
+    text-align: center;  
+
+}
+.CONTACThr{
+    width: 60px;
+    background-color: #34b7a7;
+    height: 4px;
+     margin:20px auto; 
+    text-align: center;
+
+}
+.CONTACTp{
+    color: #888888;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.CONTACTmaps{
+    width: cover;
+    text-align: center; 
+    padding-top: 20px;
+}
+.CONTACTmainchild{
+    display: flex;
+    flex-wrap: wrap;
+}
+.CONTACTchild{
+    
+    width: 450px;
+    height: 350px;
+}
+.CONTACTinfo{
+    display: flex;
+    margin: 40px 20px;
+
+}
+.CONTACTpara h2{
+    margin-bottom: 10px;
+    color: rgb(83, 81, 81);
+}
+.CONTACTpara p{
+    color: gray;
+}
+
+.CONTACTlink i{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: #effbf9;
+    margin-right: 15px;
+    color: #34b7a7;
+    transition: all 0.5s;
+
+}
+
+.CONTACTlink i:hover{
+    background-color: #34b7a7;
+    color: white;
+
+}
+
+.input1, .input{
+    width: 330px;
+    height: 45px;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+.input{
+    margin-right: 20px;
+}
+.input2{
+    width: 685px;
+    height: 45px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.input3{
+    width: 685px;
+
+}
+.contactform a input{
+    padding:15px 30px 15px 30px ;
+    background-color:#34b7a7 ;
+    color: #fff;
+    border: 0;
+    transition: 0.4s;
+    border-radius: 50px;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 260px;
+}
+
+.contactform .input ,.contactform .input1 ,.contactform .input2 ,.contactform .input3{
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid rgb(216, 212, 212);
+    border-radius: 4px;
+    color: #c9c2c2;
+    transition: all 0.5s;
+}
+.contactform .input ,.contactform .input1 ,.contactform .input2 ,.contactform .input3:first-child{
+    
+
+}
+
+
+/* footer start */
+.footer{
+    align-items: center;
+    background-color: #e9e8e6;
+    background-size: cover;
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #535050;
+}
+.footer a{
+    text-decoration: none;
+    color:#34b7a7;
+}
+/* footer ends */
+
+
+
+
+
+
+/* CONTACT ends */

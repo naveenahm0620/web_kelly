@@ -1,0 +1,139 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+
+/* main page start */
+
+.mainpage {
+    background-image: url(./mainpageimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    background-attachment: fixed;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: 330px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #888888;
+    margin: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navbar {
+    background-color: rgb(240, 240, 245);
+    background-size: cover;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar h1 {
+    color: rgb(78, 69, 69);
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: 10px;
+    font-family: Eras ITC;
+}
+
+.link1 {
+    color: black;
+    border-bottom: 2px solid #34b7a7;
+    padding-bottom: 10px;
+}
+
+.link {
+    transition: all 0.3s;
+}
+
+.link:hover {
+    color: black;
+    border-bottom: 2px solid #34b7a7;
+    padding-bottom: 10px;
+}
+
+.medialinks {
+    display: flex;
+    text-align: right;
+    margin-left: 280px;
+}
+
+.medialinks i {
+    transition: all 0.5s;
+}
+
+.medialinks i:hover {
+    color: #34b7a7;
+}
+
+.medialinks a {
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+    margin: 5px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 205px;
+    font-family: "Raleway", sans-serif;
+}
+
+.content h1 {
+    font-size: 46px;
+    color: #222222;
+    padding-bottom: 15px;
+}
+
+.content p {
+    color: #6f6f6f;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.content a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #34b7a7;
+    background-color: #34b7a7;
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* footer start */
+
+.footer {
+    align-items: center;
+    background-color: #e9e8e6;
+    background-size: cover;
+    text-align: center;
+    margin-top: 130px;
+    padding: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #535050;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #34b7a7;
+}
+
+
+/* footer ends */
+
+
+/* main page end */
